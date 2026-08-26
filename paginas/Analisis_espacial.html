@@ -1,65 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análisis Espacial - GISMA Catastral Colombia</title>
+    <title>Sistemas de Información Geográfica y Análisis Espacial | GISCAT S.A.S.</title>
+    <meta name="description" content="Análisis espacial avanzado, modelamiento territorial y geodatabases por GISCAT S.A.S.">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/png" href="../img/favicon-96x96.png" sizes="96x96" />
 </head>
-
 <body>
-
-    <header>
-        <h1>Análisis Espacial</h1>
-        <p>Estudio y análisis de información geográfica</p>
-
-        <nav>
+    <header class="header-servicio">
+        <a href="../index.html" class="btn-volver">&larr; Volver al Inicio</a>
+        <h1 class="logo-texto">GISCAT <span>GEOESPACIAL</span></h1>
+        <nav aria-label="Navegación secundaria">
             <ul>
-                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="predial.html">Gestión Predial</a></li>
+                <li><a href="Topografia.html">Topografía</a></li>
+                <li><a href="Avaluos.html">Avalúos</a></li>
+                <li><a href="Analisis_espacial.html" class="active">SIG</a></li>
+                <li><a href="Catastro.html">Catastro</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <section class="hero-servicio">
+        <span class="badge">Inteligencia Territorial</span>
+        <h2>Sistemas de Información Geográfica (SIG) y Análisis Espacial</h2>
+        <p>Modelado avanzado de datos geográficos, estructuración de geodatabases y analítica territorial para la toma de decisiones.</p>
+        <a href="../index.html#contacto" class="btn-cta">Consultar Soluciones SIG</a>
+    </section>
 
-        <section>
-            <h2>¿Qué es el análisis espacial?</h2>
-
-            <p>
-                El análisis espacial permite estudiar información
-                relacionada con la ubicación geográfica de diferentes
-                elementos sobre el territorio.
-            </p>
+    <main class="contenedor-principal">
+        <section class="seccion-servicio">
+            <h3>Capacidades del Área SIG</h3>
+            <article class="tarjeta-servicio">
+                <span class="icono">🗄️</span>
+                <h4>Estructuración de Geodatabases</h4>
+                <p>Diseño e implementación de bases de datos espaciales empresariales en PostGIS, ArcGIS y QGIS.</p>
+            </article>
+            <article class="tarjeta-servicio">
+                <span class="icono">📈</span>
+                <h4>Modelado de Multicriterio</h4>
+                <p>Análisis de aptitud territorial, evaluación de idoneidad del suelo y ruteo óptimo para proyectos.</p>
+            </article>
+            <article class="tarjeta-servicio">
+                <span class="icono">🌐</span>
+                <h4>Geoportales y WebGIS</h4>
+                <p>Desarrollo de visores geográficos interactivos para la publicación y consulta de datos espaciales en la nube.</p>
+            </article>
+            <article class="tarjeta-servicio">
+                <span class="icono">🤖</span>
+                <h4>Automatización de Procesos (Spatial ETL)</h4>
+                <p>Optimización de flujos de trabajo cartográficos mediante scripts de Python (PyQGIS, ArcPy) y FME.</p>
+            </article>
         </section>
 
-        <section>
-            <h2>Nuestros servicios</h2>
-
-            <ul>
-                <li>Análisis de información geográfica.</li>
-                <li>Estudio de distribución espacial.</li>
-                <li>Análisis territorial.</li>
-                <li>Generación de mapas temáticos.</li>
-                <li>Procesamiento de datos geográficos.</li>
-            </ul>
+        <section class="seccion-servicio">
+            <h3>Entregables Geoespaciales</h3>
+            <table class="tabla-entregables">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Descripción</th>
+                        <th>Formato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Geodatabase Modelo de Datos</strong></td>
+                        <td>Base de datos espacial validada topológicamente y estructurada.</td>
+                        <td>File GDB / PostGIS / GeoPackage</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tableros de Control Geográfico (Dashboards)</strong></td>
+                        <td>Panel interactivo con mapas e indicadores dinámicos del territorio.</td>
+                        <td>Web GIS / Enlace Cloud</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
-        <section>
-            <h2>Aplicaciones</h2>
-
-            <p>
-                El análisis espacial puede utilizarse para apoyar
-                proyectos catastrales, urbanísticos, ambientales
-                y de planificación territorial.
-            </p>
-        </section>
-
+        <aside class="banner-contacto">
+            <h3>¿Desea transformar sus datos territoriales en estrategia?</h3>
+            <p>Implementamos soluciones SIG adaptadas a su sector corporativo u oficial.</p>
+            <a href="mailto:GISCATSOLUCIONESGEOESPACIALES@GMAIL.COM" class="btn-secundario">Solicitar Demostración</a>
+        </aside>
     </main>
 
     <footer>
-        <p>&copy; 2026 GISMA Catastral Colombia</p>
+        <p>&copy; 2026 GISCAT SOLUCIONES GEOESPACIALES S.A.S.</p>
     </footer>
-
 </body>
 </html>

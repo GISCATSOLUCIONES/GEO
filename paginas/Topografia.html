@@ -1,77 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Topografía - GISMA Catastral Colombia</title>
+    <title>Topografía y Geodesia | GISCAT S.A.S.</title>
+    <meta name="description" content="Levantamientos topográficos de alta precisión y redes geodésicas georreferenciadas.">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/png" href="../img/favicon-96x96.png" sizes="96x96" />
 </head>
-
 <body>
-
-    <header>
-        <h1>Topografía</h1>
-        <p>Medición y representación de terrenos</p>
-
-        <nav>
+    <header class="header-servicio">
+        <a href="../index.html" class="btn-volver">&larr; Volver al Inicio</a>
+        <h1 class="logo-texto">GISCAT <span>GEOESPACIAL</span></h1>
+        <nav aria-label="Navegación secundaria">
             <ul>
-                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="predial.html">Gestión Predial</a></li>
+                <li><a href="Topografia.html" class="active">Topografía</a></li>
+                <li><a href="Avaluos.html">Avalúos</a></li>
+                <li><a href="Analisis_espacial.html">SIG</a></li>
+                <li><a href="Catastro.html">Catastro</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <section class="hero-servicio">
+        <span class="badge">Ingeniería Geoespacial</span>
+        <h2>Topografía de Alta Precisión y Geodesia</h2>
+        <p>Levantamientos planimétricos, altimétricos y modelado de terrenos amarrados a la red geodésica oficial MAGNA-SIRGAS.</p>
+        <a href="../index.html#contacto" class="btn-cta">Cotizar Levantamiento Topográfico</a>
+    </section>
 
-        <section>
-            <h2>¿Qué es la topografía?</h2>
-
-            <p>
-                La topografía es la disciplina encargada de medir
-                y representar las características físicas de un terreno,
-                incluyendo sus dimensiones, alturas y ubicación.
-            </p>
+    <main class="contenedor-principal">
+        <section class="seccion-servicio">
+            <h3>Servicios Topográficos Específicos</h3>
+            <article class="tarjeta-servicio">
+                <span class="icono">📐</span>
+                <h4>Levantamientos Prediales</h4>
+                <p>Determinación exacta de linderos y áreas para deslindes, loteos y rectificación de áreas catastrales.</p>
+            </article>
+            <article class="tarjeta-servicio">
+                <span class="icono">📡</span>
+                <h4>Geodesia GNSS / RTK</h4>
+                <p>Posicionamiento satelital de alta exactitud, densificación de redes geodésicas y amarre de puntos de control.</p>
+            </article>
+            <article class="tarjeta-servicio">
+                <span class="icono">🏗️</span>
+                <h4>Topografía para Ingeniería</h4>
+                <p>Soporte a obras civiles, control de trazados viales, nivelaciones de precisión y cálculo de volúmenes.</p>
+            </article>
+            <article class="tarjeta-servicio">
+                <span class="icono">⛰️</span>
+                <h4>Modelado de Relieve (DTM/DSM)</h4>
+                <p>Generación de modelos digitales del terreno y curvas de nivel para planificación de obras e infraestructura.</p>
+            </article>
         </section>
 
-        <section>
-            <h2>Nuestros servicios</h2>
-
-            <ul>
-                <li>Levantamientos topográficos.</li>
-                <li>Medición de terrenos.</li>
-                <li>Levantamientos planimétricos.</li>
-                <li>Levantamientos altimétricos.</li>
-                <li>Representación gráfica del terreno.</li>
-            </ul>
+        <section class="seccion-servicio">
+            <h3>Entregables Técnicos</h3>
+            <table class="tabla-entregables">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Descripción</th>
+                        <th>Formato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Plano Topográfico Certificado</strong></td>
+                        <td>Plano con coordenadas MAGNA-SIRGAS, linderos y cartera de campo.</td>
+                        <td>DWG / DXF / PDF</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Reporte Geodésico GNSS</strong></td>
+                        <td>Certificado de amarre a vértices IGAC y cartera de cálculo de posicionamiento.</td>
+                        <td>PDF Digital</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
-        <section>
-            <h2>Aplicaciones de la topografía</h2>
-
-            <p>
-                Los levantamientos topográficos pueden ser utilizados
-                en proyectos de construcción, estudios territoriales,
-                elaboración de planos y diferentes proyectos de ingeniería.
-            </p>
-        </section>
-
-        <section>
-            <h2>Proceso de trabajo</h2>
-
-            <ol>
-                <li>Visita al terreno.</li>
-                <li>Recolección de información.</li>
-                <li>Medición del terreno.</li>
-                <li>Procesamiento de los datos.</li>
-                <li>Elaboración de planos.</li>
-            </ol>
-        </section>
-
+        <aside class="banner-contacto">
+            <h3>¿Necesita precisión geodésica en su terreno?</h3>
+            <p>Contamos con equipos de última generación GNSS y estaciones totales.</p>
+            <a href="mailto:GISCATSOLUCIONESGEOESPACIALES@GMAIL.COM" class="btn-secundario">Solicitar Presupuesto</a>
+        </aside>
     </main>
 
     <footer>
-        <p>&copy; 2026 GISMA Catastral Colombia</p>
+        <p>&copy; 2026 GISCAT SOLUCIONES GEOESPACIALES S.A.S.</p>
     </footer>
-
 </body>
 </html>
